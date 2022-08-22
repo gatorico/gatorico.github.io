@@ -1,0 +1,216 @@
+
+.main-header
+{
+    background-color: black;
+    width: auto;
+    font-family: sans-serif;
+}
+
+html, body 
+{
+    margin: 0; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{
+    /*background-color:rgb(6, 5, 20);*/
+    background-color: black;
+}
+
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-nav a
+{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.logocont
+{
+    text-align: center;
+}
+
+.logo
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+#welcome
+{
+    background-color:rgb(6, 5, 20);
+    color: white;
+    overflow: hidden;
+    display: flex;
+    margin-top: 2%;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#welcomediv
+{
+    float: left;
+    padding: 5%;
+}
+#welcomeimg
+{
+    margin-top: 12%;
+    float: right;
+    height: 440px;
+    width: 220px;
+}
+
+/*footer formatting INCLUDES CREDIT*/
+#main-footer
+{
+    padding: 1%;
+    margin-top: 2%;
+    background-color:rgb(6, 5, 20);
+}
+
+#main-footer a
+{
+    padding-right: 2%;
+    text-decoration: none;
+    color: pink;
+}
+
+#credit
+{
+    text-align: right;
+    color: slategrey;
+}
+
+/*bump footer*/
+.contactInfo
+{
+    padding-bottom: 100px;
+}
+
+/*Format social links*/
+#contactList a
+{
+    font-size: 28px;
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+/*Center social links*/
+.contactInfo div
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*Self Explaining, social colors on hover for links*/
+a:link
+{
+    color: white;
+}
+
+#youtube:hover
+{
+    color: pink;
+}
+
+#steam:hover
+{
+    color: pink;
+}
+
+#group:hover
+{
+    color: pink;
+}
+
+#spotify:hover
+{
+    color:pink;
+}
+
+#twitter:hover
+{
+    color: pink;
+}
+
+#discord:hover
+{
+    color: pink;
+}
+
+#twitch:hover
+{
+    color: pink;
+}
+
+#films:hover
+{
+    color: pink;
+}
+
+#pc:hover
+{
+    color: pink;
+}
+
+#mapsSocial:hover
+{
+    color: pink;
+}
+
+
+/*Main downloads page formatting*/
+#downloads
+{
+    background-color: black;
+    margin-top: 2%;
+    overflow: hidden;
+    padding: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+/*Remove text deco and change text color to white for downloads info*/
+#downloads a, #downloads p
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*change download text to pink on hover*/
+#downloads a:hover, .main-nav a:hover
+{
+    color: pink;
+}
+
+/*Format download page images*/
+#downloads img
+{
+    float: right;
+    height: 200px;
+    width: 400px;
+}
+/*header for downloads page*/
+#downloadHeader
+{
+    color: white;
+    text-align: center;
+}
